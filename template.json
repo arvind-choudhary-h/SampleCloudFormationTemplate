@@ -1,0 +1,17 @@
+{
+	"Conditions": {
+		"Never": {
+			"Fn::Equals": [
+				"a",
+				"b"
+			]
+		}
+	},
+	"Resources": {
+		"NonResource": {
+			"Type": "Custom::NonResource",
+			"Condition": "Never"
+		}
+	},
+  "Description": "${workflow.displayName}|Sample"
+}
