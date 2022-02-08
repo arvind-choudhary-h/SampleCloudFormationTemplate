@@ -54,7 +54,7 @@
                     "WebsiteURL"
                 ]
             },
-            "Description": "URL for website hosted on S3"
+            "Description": "${workflow.displayName}|Sample"
         },
         "S3BucketSecureURL": {
             "Value": {
