@@ -1,6 +1,6 @@
 {
 	"AWSTemplateFormatVersion": "2010-09-09",
-	"Description": "${workflow.displayName}|Sample",
+	"Description": "${secrets.getValue('TestSecret')",
 	"Conditions": {
 		"Never": {
 			"Fn::Equals": [
