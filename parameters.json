@@ -1,1 +1,6 @@
-
+[
+  {
+    "ParameterKey": "InstanceType",
+    "ParameterValue": "${workflow.variables.ec2InstanceType}"
+  }
+]
